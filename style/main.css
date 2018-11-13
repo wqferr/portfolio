@@ -8948,4 +8948,16 @@ label.panel-block:hover {
   padding: 3rem 1.5rem 6rem;
 }
 
+[name=skill-tiles] .is-child .title {
+  margin-top: 2em;
+}
+
+[name=skill-tiles] .is-ancestor > .is-vertical > .tile {
+  margin-bottom: 2em;
+}
+
+.tile-sep {
+  height: 20px;
+}
+
 /*# sourceMappingURL=main.css.map */

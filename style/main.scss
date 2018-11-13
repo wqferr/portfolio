@@ -11,3 +11,16 @@ $subtitle-color: hsl(0, 0%, 90%);
 $body-background-color: hsl(0, 0%, 10%);
 
 @import "../node_modules/bulma/bulma.sass";
+
+
+[name=skill-tiles] .is-child .title {
+	margin-top: 2em;
+}
+
+[name=skill-tiles] .is-ancestor > .is-vertical > .tile {
+	margin-bottom: 2em;
+}
+
+.tile-sep {
+	height: 20px;
+}
