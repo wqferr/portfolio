@@ -1,4 +1,8 @@
-$primary: hsla(190, 30%, 30%, 1);
-$body-background-color: hsla(0, 0%, 10%, 1);
+$primary: hsl(0, 0%, 18%);
+
+$text: hsl(0, 0%, 80%);
+$title-color: hsl(0, 0%, 95%);
+
+$body-background-color: hsl(0, 0%, 10%);
 
 @import "../node_modules/bulma/bulma.sass";
