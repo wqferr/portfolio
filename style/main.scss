@@ -1,4 +1,8 @@
-$primary: hsl(0, 0%, 18%);
+$primary: hsl(200, 100%, 50%);
+$primary-darker: hsl(200, 100%, 30%);
+
+$link: $primary;
+$link-hover: $primary-darker;
 
 $text: hsl(0, 0%, 80%);
 $title-color: hsl(0, 0%, 95%);
