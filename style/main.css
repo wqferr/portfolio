@@ -8948,6 +8948,10 @@ label.panel-block:hover {
   padding: 3rem 1.5rem 6rem;
 }
 
+p {
+  padding-bottom: 1em;
+}
+
 .is-underlined {
   text-decoration: underline;
 }
