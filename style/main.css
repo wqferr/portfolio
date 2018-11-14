@@ -8948,7 +8948,7 @@ label.panel-block:hover {
   padding: 3rem 1.5rem 6rem;
 }
 
-p {
+p:not(:last-child) {
   padding-bottom: 1em;
 }
 

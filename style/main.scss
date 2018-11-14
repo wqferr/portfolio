@@ -13,7 +13,7 @@ $body-background-color: hsl(0, 0%, 10%);
 
 @import "../node_modules/bulma/bulma.sass";
 
-p {
+p:not(:last-child) {
 	padding-bottom: 1em;
 }
 
