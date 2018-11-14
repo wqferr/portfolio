@@ -1,10 +1,10 @@
-$primary: hsl(200, 100%, 50%);
+$primary: hsl(200, 100%, 80%);
 $primary-darker: hsl(200, 100%, 30%);
 
 $link: $primary;
 $link-hover: $primary-darker;
 
-$text: hsl(0, 0%, 80%);
+$text: hsl(200, 40%, 80%);
 $title-color: hsl(0, 0%, 95%);
 $subtitle-color: hsl(0, 0%, 90%);
 
@@ -18,9 +18,15 @@ $body-background-color: hsl(0, 0%, 10%);
 }
 
 [name=skill-tiles] .is-ancestor > .is-vertical > .tile {
-	margin-bottom: 2em;
+	margin-bottom: 1.5em;
+	padding-top: 0;
+	padding-bottom: 0;
 }
 
+// [name=skill-tiles] .is-child > i {
+// 	color: $light-blue;
+// }
+
 .tile-sep {
-	height: 1em;
+	min-height: 1.5em;
 }
