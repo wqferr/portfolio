@@ -8948,6 +8948,13 @@ label.panel-block:hover {
   padding: 3rem 1.5rem 6rem;
 }
 
+[name=back-to-top] {
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+  z-index: 100;
+}
+
 p:not(:last-child) {
   padding-bottom: 1em;
 }

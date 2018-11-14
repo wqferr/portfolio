@@ -13,6 +13,13 @@ $body-background-color: hsl(0, 0%, 10%);
 
 @import "../node_modules/bulma/bulma.sass";
 
+[name=back-to-top] {
+	position: fixed;
+	bottom: 2em;
+	right: 2em;
+	z-index: 100;
+}
+
 p:not(:last-child) {
 	padding-bottom: 1em;
 }
