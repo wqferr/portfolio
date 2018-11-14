@@ -1,7 +1,8 @@
-$primary: hsl(200, 100%, 80%);
+$primary: hsl(200, 70%, 85%);
 $primary-darker: hsl(200, 100%, 30%);
+$primary-invert: $primary-darker;
 
-$link: $primary;
+$link: hsl(200, 88%, 67%);
 $link-hover: $primary-darker;
 
 $text: hsl(200, 40%, 80%);
@@ -12,6 +13,9 @@ $body-background-color: hsl(0, 0%, 10%);
 
 @import "../node_modules/bulma/bulma.sass";
 
+.is-underlined {
+	text-decoration: underline;
+}
 
 [name=skill-tiles] .is-child .title {
 	margin-top: 2em;
@@ -22,10 +26,6 @@ $body-background-color: hsl(0, 0%, 10%);
 	padding-top: 0;
 	padding-bottom: 0;
 }
-
-// [name=skill-tiles] .is-child > i {
-// 	color: $light-blue;
-// }
 
 .tile-sep {
 	min-height: 1.5em;
